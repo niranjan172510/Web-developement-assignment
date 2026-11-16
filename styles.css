@@ -1,0 +1,506 @@
+
+body {
+    margin: 0;
+}
+
+#main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #575757;
+    padding: 25px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+
+/* NAVIGATION */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#navigation a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#navigation a:hover {
+    color: #C8A951;
+}
+
+/* MAIN HEADING */
+
+#heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(45px, 7vw, 110px);
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+/* DESCRIPTION */
+
+#main-header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+
+
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    width: 100%;
+    white-space: nowrap;
+    margin-bottom: auto;
+}
+
+
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+/* HEADING POSITION */
+
+#main-header {
+    justify-content: flex-start;
+}
+
+#heading {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+/* PERSONAL INFORMATION */
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 50px;
+    min-height: 500px;
+    box-sizing: border-box;
+}
+
+
+/* HEADING */
+
+.personal h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #575757;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+/* PARAGRAPH CONTAINER */
+
+.personal p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* INDIVIDUAL BOXES */
+
+.personal span {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 35px 55px;
+    motion: 220px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #575757;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+/* EDUCATION SECTION */
+
+/* EDUCATION SECTION */
+
+.education {
+    text-align: center;
+    padding: 45px 30px;
+    background-color: #f8f8f8;
+}
+
+/* EDUCATION HEADING */
+
+.education h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #474646;
+    
+}
+
+
+
+.education p {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+/* INDIVIDUAL EDUCATION BOXES */
+
+.education span {
+    display: block;
+    background-color: #f1f1f1;
+    padding: 40px;
+    border-radius: 8px;
+    width: 350px;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    text-align: left;
+}
+
+
+.education span a {
+    color: #474646;
+    text-decoration: underline;
+}
+
+.education span a:hover {
+    color: #777777;
+}
+
+
+/* WORK EXPERIENCE SECTION */
+
+.work {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #474646;
+}
+
+.work h2 {
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #f1f1f1;
+}
+
+
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* INDIVIDUAL EXPERIENCE BOXES */
+
+.experience-box {
+    background-color: #f1f1f1;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 1;
+    min-height: 400px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.experience-box h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.experience-box h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.experience-box ul {
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+
+/* SKILLS AND LANGUAGES SECTION */
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+
+    min-height: 100vh;
+    padding: 50px 40px;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+/* BOTH HEADINGS */
+
+.skills h2 {
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+/* LEFT SIDE - SKILLS */
+
+.skills-list {
+    flex: 1;
+    max-width: 500px;
+}
+
+.skills-list ul {
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 2.2;
+    font-weight: 300;
+}
+
+/* RIGHT SIDE - LANGUAGES */
+
+.languages {
+    flex: 1;
+    max-width: 450px;
+}
+
+.languages p {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+/* ANIMATED LANGUAGE BARS */
+
+.language-bar {
+    display: block;
+    height: 6px;
+    background-color: #575757;
+    border-radius: 4px;
+
+    transform-origin: left;
+    animation: slideBar 1.5s ease-out both;
+}
+
+/* INDIVIDUAL BAR WIDTHS */
+
+.english {
+    width: 100px;
+    animation-delay: 0.2s;
+}
+
+.hindi {
+    width: 80px;
+    animation-delay: 0.4s;
+}
+
+.kannada {
+    width: 50px;
+    animation-delay: 0.6s;
+}
+
+.malayalam {
+    width: 100px;
+    animation-delay: 0.8s;
+}
+
+/* SLIDING ANIMATION */
+
+@keyframes slideBar {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+
+/* CONTACT SECTION */
+
+.contact-section {
+    min-height: 65vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #575757;
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* CONTACT HEADING */
+
+.contact-section h2 {
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 45px;
+}
+
+/* CONTACT DETAILS */
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    margin-bottom: 45px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.contact-item img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+/* GET IN TOUCH BUTTON */
+
+.contact-button {
+    display: inline-block;
+    padding: 16px 35px;
+
+    background-color: white;
+    color: #575757;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #C8A951;
+    color: white;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 60px 20px;
+    }
+
+    .contact-section h2 {
+        font-size: 27px;
+    }
+
+    .contact-item {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
